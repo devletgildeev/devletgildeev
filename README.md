@@ -16,4 +16,10 @@ temp/
 git add .gitignore
 git commit -m "gitignore
 git push
-">
+">get checkout -b feature-branch
+git add .
+git commit -m "feature.txt"
+git checkout main
+git merge feature-branch
+# мой первый репозиторий
+Этот репозиторий создан в рамках учебной практической работы
